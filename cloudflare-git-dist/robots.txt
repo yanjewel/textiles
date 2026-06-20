@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /visitor-stats.html
+
+Sitemap: https://dawn-recipe-5f61.junyan911s.workers.dev/sitemap.xml
