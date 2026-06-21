@@ -99,6 +99,18 @@
       faqQ6: "How do you handle packing and shipping details?",
       faqA6:
         "Roll packing, labels, shipping marks, carton or pallet requirements should be confirmed before production. Export documents can be discussed according to the buyer's destination requirements.",
+      faqQ7: "Sourcing example: polyester pongee for lining or light outerwear",
+      faqA7:
+        "A buyer may send 190T or 210T pongee reference, required width, color, coating or water-repellent finish, order quantity and destination port. The factory can review whether the request should be quoted as FOB China port or CIF destination port.",
+      faqQ8: "Sourcing example: oxford fabric for bags or covers",
+      faqA8:
+        "For bag or cover fabric, buyers usually confirm denier, coating, water-repellent finish, color, roll packing and final application. These details help avoid quoting only by product name.",
+      faqQ9: "Sourcing example: peach skin fabric for home textile",
+      faqA9:
+        "For bedding, home textile or decorative fabric, buyers should confirm hand feel, width, weight, color or print design, surface finish and packing requirements before sampling.",
+      faqQ10: "Sourcing example: brushed fabric for warm-touch textile products",
+      faqA10:
+        "For brushed fabric, buyers can share the target hand feel, brushing level, color, width, weight and end use. A physical sample or clear photo can help confirm the fabric direction faster.",
       videosEyebrow: "Factory media",
       videosTitle: "Workshop video clips",
       videosCopy:
@@ -228,6 +240,18 @@
       faqQ6: "包装和出运信息如何确认？",
       faqA6:
         "卷装、标签、唛头、纸箱或托盘要求建议在生产前确认。出口单据可根据客户目的港清关要求提前沟通。",
+      faqQ7: "采购案例：春亚纺用于里料或轻薄外套",
+      faqA7:
+        "采购商可发送 190T 或 210T 春亚纺参考规格、门幅、颜色、涂层或防泼水后整理、订单数量和目的港。工厂可据此判断适合按中国港口 FOB 报价，还是按目的港 CIF 报价。",
+      faqQ8: "采购案例：牛津布用于箱包或罩布",
+      faqA8:
+        "箱包或罩布面料通常需要确认 D 数、涂层、防泼水要求、颜色、卷装方式和最终用途。这样可以避免只按产品名称报价造成规格偏差。",
+      faqQ9: "采购案例：桃皮绒用于家纺产品",
+      faqA9:
+        "床品、家纺或装饰面料需要提前确认手感、门幅、克重、颜色或印花设计、表面效果和包装要求，再进入打样沟通。",
+      faqQ10: "采购案例：磨毛布用于暖感纺织品",
+      faqA10:
+        "磨毛布询价建议提供目标手感、磨毛程度、颜色、门幅、克重和最终用途。如有实样或清晰图片，可以更快确认面料方向。",
       videosEyebrow: "工厂视频",
       videosTitle: "车间短视频",
       videosCopy: "页面嵌入项目素材中的短视频，让采购商在沟通前先看到真实生产环境。",
