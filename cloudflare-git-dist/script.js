@@ -1,12 +1,13 @@
 (function () {
   const translations = {
     en: {
-      pageTitle: "Changxing Chunsheng Textile Co., Ltd. | Woven Fabric Manufacturer",
+      pageTitle: "China Polyester Pongee, Peach Skin & Oxford Fabric Manufacturer | Changxing Chunsheng Textile",
       brandName: "Changxing Chunsheng Textile",
       brandTag: "Woven fabric manufacturer",
       navProducts: "Products",
       navFactory: "Factory",
       navProfile: "Profile",
+      navFaq: "FAQ",
       navVideos: "Videos",
       navInquiry: "Inquiry",
       whatsappHeader: "WhatsApp",
@@ -14,9 +15,9 @@
       zoomImagePrefix: "View larger image",
       carouselKicker: "Factory video",
       heroEyebrow: "Fabric sourcing request",
-      heroTitle: "Share your target specification for sampling and quotation.",
+      heroTitle: "China woven fabric manufacturer for pongee, peach skin and oxford fabric.",
       heroCopy:
-        "Send width, weight, finish, color, quantity and application details. Our team will review the fabric route and prepare a practical response for your purchasing program.",
+        "Source specification-led polyester pongee, peach skin, oxford and brushed fabrics from Changxing, Zhejiang. Send width, weight, finish, color, quantity and destination port for a practical quote.",
       responseNote: "Send specs, photos or sample requirements directly.",
       heroPrimary: "Request fabric details",
       heroSecondary: "View factory media",
@@ -32,12 +33,16 @@
         "The site uses the supplied product images only. Specifications can be quoted by weight, width, density, finish, color and packing method after receiving the buyer's target sample or tech sheet.",
       productPongeeTitle: "Polyester Pongee",
       productPongeeCopy: "Lightweight woven fabric for linings, outdoor wear, home textile and promotional products.",
+      productPongeeLink: "View pongee details",
       productPeachTitle: "Peach Skin Fabric",
       productPeachCopy: "Soft hand-feel woven fabric for apparel, bedding and decorative textile applications.",
+      productPeachLink: "View peach skin details",
       productOxfordTitle: "Oxford Fabric",
       productOxfordCopy: "Durable fabric option for bags, covers, storage products and utility textile goods.",
+      productOxfordLink: "View oxford details",
       productBrushedTitle: "Brushed Fabric",
       productBrushedCopy: "Raised surface fabric for warmer touch, suitable for home textile and garment programs.",
+      productBrushedLink: "View brushed fabric details",
       factoryEyebrow: "Source factory evidence",
       factoryTitle: "Workshop, fabric rolls and production floor shown directly.",
       factoryCopy:
@@ -72,6 +77,28 @@
       process3Copy: "Sampling focuses on hand feel, shade, surface effect and packing requirements.",
       process4Title: "Bulk production",
       process4Copy: "Bulk orders are followed through weaving or finishing, inspection and roll packing.",
+      faqEyebrow: "Buyer FAQ",
+      faqTitle: "Common questions before requesting a fabric quotation",
+      faqCopy:
+        "Clear sourcing details help both sides confirm practical fabric routes, cost terms and sample requirements before bulk production.",
+      faqQ1: "Are you a woven fabric manufacturer in China?",
+      faqA1:
+        "Changxing Chunsheng Textile Co., Ltd. is located in Changxing County, Huzhou, Zhejiang, China. The site presents company facts, workshop photos and short factory videos for buyer review.",
+      faqQ2: "Which fabric products can you quote?",
+      faqA2:
+        "Common inquiry products include polyester pongee, peach skin fabric, oxford fabric, brushed fabric and other woven textile fabrics.",
+      faqQ3: "What information should buyers send for a faster quote?",
+      faqA3:
+        "Please send width, weight, construction, color, finish, quantity, packing method, destination port and target application. Photos or reference samples are also useful.",
+      faqQ4: "Can you provide FOB or CIF quotation?",
+      faqA4:
+        "Yes. For FOB, share the China loading port preference if any. For CIF, please provide the destination port so ocean freight and insurance can be considered in the quote.",
+      faqQ5: "Can buyers request samples before bulk order?",
+      faqA5:
+        "Sample discussion normally starts from the target specification or reference fabric. Sampling focuses on hand feel, shade, surface effect, finish and packing requirements.",
+      faqQ6: "How do you handle packing and shipping details?",
+      faqA6:
+        "Roll packing, labels, shipping marks, carton or pallet requirements should be confirmed before production. Export documents can be discussed according to the buyer's destination requirements.",
       videosEyebrow: "Factory media",
       videosTitle: "Workshop video clips",
       videosCopy:
@@ -107,12 +134,13 @@
       summaryRequirements: "Requirements"
     },
     zh: {
-      pageTitle: "长兴春生纺织有限公司 | 梭织面料源头工厂",
+      pageTitle: "长兴春生纺织有限公司 | 春亚纺、桃皮绒、牛津布梭织面料工厂",
       brandName: "长兴春生纺织",
       brandTag: "梭织面料源头工厂",
       navProducts: "产品",
       navFactory: "工厂",
       navProfile: "公司概况",
+      navFaq: "常见问题",
       navVideos: "视频",
       navInquiry: "询盘",
       whatsappHeader: "WhatsApp",
@@ -120,8 +148,8 @@
       zoomImagePrefix: "放大查看",
       carouselKicker: "工厂视频",
       heroEyebrow: "面料采购需求",
-      heroTitle: "提交目标规格，便于快速匹配样品与报价。",
-      heroCopy: "请提供门幅、克重、后整理、颜色、数量和应用场景。我们会根据面料路线评估可行方案，并整理适合采购沟通的回复。",
+      heroTitle: "中国梭织面料工厂，供应春亚纺、桃皮绒和牛津布。",
+      heroCopy: "从浙江长兴对接春亚纺、桃皮绒、牛津布和磨毛布等梭织面料。请发送门幅、克重、后整理、颜色、数量和目的港，便于快速评估报价。",
       responseNote: "可直接发送规格、图片或样品需求。",
       heroPrimary: "提交面料需求",
       heroSecondary: "查看工厂实拍",
@@ -137,12 +165,16 @@
         "页面只使用项目中提供的产品图片。报价沟通可按克重、门幅、密度、后整理、颜色和包装方式确认，也可根据采购商目标样或规格单匹配。",
       productPongeeTitle: "春亚纺",
       productPongeeCopy: "轻薄梭织面料，可用于里料、户外服装、家纺及促销类纺织产品。",
+      productPongeeLink: "查看春亚纺详情",
       productPeachTitle: "桃皮绒",
       productPeachCopy: "手感柔软，适用于服装、床品及装饰类纺织品。",
+      productPeachLink: "查看桃皮绒详情",
       productOxfordTitle: "牛津布",
       productOxfordCopy: "耐用型面料，可用于箱包、罩布、收纳用品及功能类纺织品。",
+      productOxfordLink: "查看牛津布详情",
       productBrushedTitle: "磨毛布",
       productBrushedCopy: "表面经磨毛处理，触感更温暖，适合家纺及服装项目。",
+      productBrushedLink: "查看磨毛布详情",
       factoryEyebrow: "源头工厂证据",
       factoryTitle: "车间、布卷和生产现场直接展示。",
       factoryCopy:
@@ -176,6 +208,26 @@
       process3Copy: "重点确认手感、颜色、表面效果和包装要求。",
       process4Title: "大货生产",
       process4Copy: "订单进入织造或后整理，并跟进检验与卷装包装。",
+      faqEyebrow: "采购常见问题",
+      faqTitle: "询价前采购商常问的问题",
+      faqCopy: "清晰的采购信息可以帮助双方更快确认面料路线、贸易条款、样品和大货生产要求。",
+      faqQ1: "你们是中国梭织面料工厂吗？",
+      faqA1:
+        "长兴春生纺织有限公司位于中国浙江省湖州市长兴县。网站展示公司基础信息、车间照片和工厂短视频，方便采购商初步核验。",
+      faqQ2: "可以报价哪些面料？",
+      faqA2: "常见询价产品包括春亚纺、桃皮绒、牛津布、磨毛布及其他梭织纺织面料。",
+      faqQ3: "想更快获得报价，需要提供什么？",
+      faqA3:
+        "建议提供门幅、克重、组织、颜色、后整理、数量、包装方式、目的港和目标用途。如有图片或参考样，也可以一起发送。",
+      faqQ4: "可以提供 FOB 或 CIF 报价吗？",
+      faqA4:
+        "可以。FOB 报价请说明是否有偏好的中国装运港；CIF 报价请提供目的港，便于核算海运费和保险。",
+      faqQ5: "大货前可以先打样吗？",
+      faqA5:
+        "样品沟通通常从目标规格或参考样开始，重点确认手感、色光、表面效果、后整理和包装要求。",
+      faqQ6: "包装和出运信息如何确认？",
+      faqA6:
+        "卷装、标签、唛头、纸箱或托盘要求建议在生产前确认。出口单据可根据客户目的港清关要求提前沟通。",
       videosEyebrow: "工厂视频",
       videosTitle: "车间短视频",
       videosCopy: "页面嵌入项目素材中的短视频，让采购商在沟通前先看到真实生产环境。",
@@ -612,5 +664,7 @@
     goToSlide(0);
   }
 
-  applyLanguage(currentLang);
+  if (document.body.hasAttribute("data-lang")) {
+    applyLanguage(currentLang);
+  }
 })();
