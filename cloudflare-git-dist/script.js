@@ -1,7 +1,7 @@
 (function () {
   const translations = {
     en: {
-      pageTitle: "China Polyester Pongee, Peach Skin & Oxford Fabric Manufacturer | Changxing Chunsheng Textile",
+      pageTitle: "China Wide-Width Woven Fabric Manufacturer | Competitive Textile Factory Pricing",
       brandName: "Changxing Chunsheng Textile",
       brandTag: "Woven fabric manufacturer",
       navProducts: "Products",
@@ -16,9 +16,9 @@
       zoomImagePrefix: "View larger image",
       carouselKicker: "Factory video",
       heroEyebrow: "Fabric sourcing request",
-      heroTitle: "China woven fabric manufacturer for pongee, peach skin and oxford fabric.",
+      heroTitle: "China wide-width woven fabric manufacturer with competitive factory pricing.",
       heroCopy:
-        "Source specification-led polyester pongee, peach skin, oxford and brushed fabrics from Changxing, Zhejiang. Send width, weight, finish, color, quantity and destination port for a practical quote.",
+        "Source wide-width, long-roll woven fabrics from Changxing, Zhejiang. We focus on practical factory pricing for pongee, peach skin, oxford and brushed fabrics, with thermochromic, flame-retardant and recycled material customization by specification.",
       responseNote: "Send specs, photos or sample requirements directly.",
       heroPrimary: "Request fabric details",
       heroSecondary: "View factory media",
@@ -28,6 +28,26 @@
       proofRegisteredSub: "Company facts kept concise",
       proofMedia: "Factory media",
       proofMediaSub: "Real workshop photos and videos",
+      advantageEyebrow: "Factory-direct advantages",
+      advantageTitle: "Wide-width woven fabrics, cost control and functional customization",
+      advantageCopy:
+        "The main advantage is practical pricing from a woven fabric source factory. Buyers can discuss wide-width, long-roll supply and special functions after confirming specification, application and order quantity.",
+      advantage1Tag: "Wide width",
+      advantage1Title: "Wide-width and long-roll woven supply",
+      advantage1Copy:
+        "Suitable for buyers who need stable woven fabric supply by width, roll length, weight, finish and packing method.",
+      advantage2Tag: "Price focus",
+      advantage2Title: "Competitive factory-direct pricing",
+      advantage2Copy:
+        "Cost control is a key strength. Pricing is discussed around real specification, quantity, packing and FOB or CIF term.",
+      advantage3Tag: "Function",
+      advantage3Title: "Thermochromic and flame-retardant options",
+      advantage3Copy:
+        "Special effects and protective finishes can be reviewed by sample target, use case, testing requirement and order volume.",
+      advantage4Tag: "Green route",
+      advantage4Title: "Recycled and recyclable material customization",
+      advantage4Copy:
+        "Green material routes can be discussed for buyers needing recycled polyester, recyclable fabric direction or sustainability-focused programs.",
       productsEyebrow: "Fabric range",
       productsTitle: "Core woven products",
       productsCopy:
@@ -150,6 +170,12 @@
       faqQ6: "How do you handle packing and shipping details?",
       faqA6:
         "Roll packing, labels, shipping marks, carton or pallet requirements should be confirmed before production. Export documents can be discussed according to the buyer's destination requirements.",
+      faqQ11: "Can you quote competitive prices for wide-width woven fabrics?",
+      faqA11:
+        "Yes. Competitive factory-direct pricing is discussed after confirming width, weight, finish, color, quantity, packing and FOB or CIF delivery term.",
+      faqQ12: "Can you support thermochromic, flame-retardant or recycled material customization?",
+      faqA12:
+        "These custom routes can be reviewed according to the target application, sample requirement, testing need and order quantity. Buyers can send a reference sample or specification first.",
       faqQ7: "Sourcing example: polyester pongee for lining or light outerwear",
       faqA7:
         "A buyer may send 190T or 210T pongee reference, required width, color, coating or water-repellent finish, order quantity and destination port. The factory can review whether the request should be quoted as FOB China port or CIF destination port.",
@@ -197,7 +223,7 @@
       summaryRequirements: "Requirements"
     },
     zh: {
-      pageTitle: "长兴春生纺织有限公司 | 春亚纺、桃皮绒、牛津布梭织面料工厂",
+      pageTitle: "长兴春生纺织有限公司 | 宽幅长码梭织面料工厂与价格优势",
       brandName: "长兴春生纺织",
       brandTag: "梭织面料源头工厂",
       navProducts: "产品",
@@ -212,8 +238,8 @@
       zoomImagePrefix: "放大查看",
       carouselKicker: "工厂视频",
       heroEyebrow: "面料采购需求",
-      heroTitle: "中国梭织面料工厂，供应春亚纺、桃皮绒和牛津布。",
-      heroCopy: "从浙江长兴对接春亚纺、桃皮绒、牛津布和磨毛布等梭织面料。请发送门幅、克重、后整理、颜色、数量和目的港，便于快速评估报价。",
+      heroTitle: "中国宽幅梭织面料工厂，主打工厂直供价格优势。",
+      heroCopy: "从浙江长兴对接宽幅、长码梭织面料，主打春亚纺、桃皮绒、牛津布和磨毛布等实用面料。可按规格沟通温变、阻燃、再生或可循环材料定制。",
       responseNote: "可直接发送规格、图片或样品需求。",
       heroPrimary: "提交面料需求",
       heroSecondary: "查看工厂实拍",
@@ -223,6 +249,22 @@
       proofRegisteredSub: "信息简洁呈现",
       proofMedia: "工厂实拍",
       proofMediaSub: "真实车间照片与视频",
+      advantageEyebrow: "源头工厂优势",
+      advantageTitle: "宽幅长码梭织、成本控制和功能性定制",
+      advantageCopy:
+        "我们的主要优势是源头工厂的实用价格和稳定梭织面料供应。采购商确认规格、用途和数量后，可以沟通宽幅、长码以及功能性定制方案。",
+      advantage1Tag: "宽幅长码",
+      advantage1Title: "宽幅与长码梭织面料供应",
+      advantage1Copy: "适合需要按门幅、卷长、克重、后整理和包装方式稳定采购的外贸客户。",
+      advantage2Tag: "价格优势",
+      advantage2Title: "工厂直供，报价更有竞争力",
+      advantage2Copy: "价格优势是重点。报价会围绕真实规格、数量、包装以及 FOB 或 CIF 条款来核算。",
+      advantage3Tag: "功能定制",
+      advantage3Title: "支持温变和阻燃等功能方向",
+      advantage3Copy: "特殊效果和防护后整理可根据目标样、使用场景、测试要求和订单数量进行评估。",
+      advantage4Tag: "绿色材料",
+      advantage4Title: "再生和可循环材料定制",
+      advantage4Copy: "可为需要绿色材料方向的客户沟通再生涤纶、可循环面料或可持续项目需求。",
       productsEyebrow: "面料范围",
       productsTitle: "主营梭织产品",
       productsCopy:
@@ -338,6 +380,12 @@
       faqQ6: "包装和出运信息如何确认？",
       faqA6:
         "卷装、标签、唛头、纸箱或托盘要求建议在生产前确认。出口单据可根据客户目的港清关要求提前沟通。",
+      faqQ11: "宽幅梭织面料可以做有价格优势的报价吗？",
+      faqA11:
+        "可以。确认门幅、克重、后整理、颜色、数量、包装以及 FOB 或 CIF 交货条款后，可以按工厂直供方式核算更有竞争力的报价。",
+      faqQ12: "可以支持温变、阻燃或再生材料定制吗？",
+      faqA12:
+        "这些定制方向可以根据目标用途、参考样、测试要求和订单数量评估。采购商可以先发送样品图片或具体规格。",
       faqQ7: "采购案例：春亚纺用于里料或轻薄外套",
       faqA7:
         "采购商可发送 190T 或 210T 春亚纺参考规格、门幅、颜色、涂层或防泼水后整理、订单数量和目的港。工厂可据此判断适合按中国港口 FOB 报价，还是按目的港 CIF 报价。",
