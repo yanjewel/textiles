@@ -326,8 +326,8 @@
   let currentLang = localStorage.getItem("site-lang") || "en";
   let lastFocusedElement = null;
 
-  function t(key) {
-    return translations[currentLang][key] || translations.en[key] || key;
+  function t(key, fallback = "") {
+    return translations[currentLang][key] || translations.en[key] || fallback || key;
   }
 
   function applyLanguage(lang) {
@@ -335,18 +335,18 @@
     localStorage.setItem("site-lang", currentLang);
     document.documentElement.lang = currentLang === "zh" ? "zh-CN" : "en";
     document.body.dataset.lang = currentLang;
-    document.title = t("pageTitle");
+    document.title = t("pageTitle", document.title);
 
     document.querySelectorAll("[data-i18n]").forEach((element) => {
-      element.textContent = t(element.dataset.i18n);
+      element.textContent = t(element.dataset.i18n, element.textContent);
     });
 
     document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
-      element.setAttribute("placeholder", t(element.dataset.i18nPlaceholder));
+      element.setAttribute("placeholder", t(element.dataset.i18nPlaceholder, element.getAttribute("placeholder") || ""));
     });
 
     document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
-      element.setAttribute("aria-label", t(element.dataset.i18nAriaLabel));
+      element.setAttribute("aria-label", t(element.dataset.i18nAriaLabel, element.getAttribute("aria-label") || ""));
     });
 
     langButtons.forEach((button) => {
