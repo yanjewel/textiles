@@ -19,6 +19,11 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 92px;
+}
+
+[id] {
+  scroll-margin-top: 92px;
 }
 
 body {
@@ -29,11 +34,6 @@ body {
   color: var(--ink);
   background: var(--paper);
   line-height: 1.6;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
 }
 
 img,
@@ -495,7 +495,6 @@ h3 {
 }
 
 .factory-section {
-  order: 3;
   display: grid;
   grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr);
   gap: clamp(28px, 5vw, 64px);
@@ -567,7 +566,6 @@ figcaption {
 }
 
 .verification {
-  order: 5;
   background: var(--surface);
 }
 
@@ -611,8 +609,54 @@ figcaption {
   color: #304756;
 }
 
+.buyer-support {
+  background:
+    linear-gradient(135deg, #f7faf9 0%, #ffffff 48%, #f2f7f8 100%);
+}
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.support-grid article {
+  position: relative;
+  min-height: 220px;
+  padding: 24px 22px;
+  border: 1px solid rgba(209, 224, 230, 0.92);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 14px 30px rgba(24, 47, 65, 0.055);
+}
+
+.support-grid span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  margin-bottom: 28px;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--green);
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.support-grid h3 {
+  margin-bottom: 10px;
+}
+
+.support-grid p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .process-section {
-  order: 6;
   background: #173449;
   color: #fff;
 }
@@ -652,7 +696,6 @@ figcaption {
 }
 
 .faq-section {
-  order: 7;
   background:
     linear-gradient(180deg, #f8fbfa 0%, #ffffff 48%, #f3f7f7 100%);
   border-top: 1px solid rgba(214, 226, 232, 0.72);
@@ -940,7 +983,6 @@ figcaption {
 }
 
 .video-section {
-  order: 4;
   background:
     linear-gradient(180deg, #f8fafb 0%, #f3f7f7 100%);
 }
@@ -1479,6 +1521,7 @@ textarea:focus {
 @media (max-width: 1050px) {
   .product-grid,
   .process-grid,
+  .support-grid,
   .faq-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1589,6 +1632,7 @@ textarea:focus {
 
   .product-grid,
   .process-grid,
+  .support-grid,
   .faq-grid,
   .inquiry-form {
     grid-template-columns: 1fr;

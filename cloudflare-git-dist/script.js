@@ -67,6 +67,18 @@
       factScopeLabel: "Business scope",
       factScopeValue: "Textile sales, textile raw material sales and fabric weaving processing",
       factContactLabel: "Fast contact",
+      supportEyebrow: "Buyer support",
+      supportTitle: "Quotation details kept practical for textile buyers",
+      supportCopy:
+        "Share your target fabric, usage and shipment term. The discussion can stay focused on specification, sample confirmation, packing details and export communication.",
+      support1Title: "Formal quotation",
+      support1Copy: "FOB or CIF quotation can be discussed after confirming width, weight, finish, quantity, packing and port.",
+      support2Title: "Sample confirmation",
+      support2Copy: "Color, hand feel, surface effect and finishing route should be approved before bulk production.",
+      support3Title: "Packing evidence",
+      support3Copy: "Roll packing, labels, marks and pre-shipment photos can be discussed for order follow-up.",
+      support4Title: "Export communication",
+      support4Copy: "Invoice, packing list, destination port and shipping document requirements should be confirmed in advance.",
       processEyebrow: "Sourcing workflow",
       processTitle: "Clear steps from sample request to shipment discussion",
       process1Title: "Confirm fabric target",
@@ -210,6 +222,18 @@
       factScopeLabel: "业务范围",
       factScopeValue: "纺织品销售、纺织原料销售、面料纺织加工",
       factContactLabel: "快速联系",
+      supportEyebrow: "采购支持",
+      supportTitle: "面向纺织采购商的实用报价沟通",
+      supportCopy:
+        "请提供目标面料、用途和贸易条款，沟通重点可以集中在规格、样品确认、包装细节和出口单据要求。",
+      support1Title: "正式报价",
+      support1Copy: "确认门幅、克重、后整理、数量、包装和港口后，可沟通 FOB 或 CIF 报价。",
+      support2Title: "样品确认",
+      support2Copy: "颜色、手感、表面效果和后整理路线建议在大货生产前确认。",
+      support3Title: "包装凭证",
+      support3Copy: "卷装、标签、唛头和出货前照片可根据订单跟进需求沟通。",
+      support4Title: "出口沟通",
+      support4Copy: "发票、装箱单、目的港和运输单据要求建议提前确认。",
       processEyebrow: "采购流程",
       processTitle: "从样品需求到大货沟通的清晰步骤",
       process1Title: "确认目标面料",
@@ -288,11 +312,11 @@
 
   const coverImages = {
     en: {
-      src: "assets/images/brand/hero-en.png",
+      src: "assets/images/brand/hero-en.webp",
       alt: "Changxing Chunsheng Textile English factory cover"
     },
     zh: {
-      src: "assets/images/brand/hero-zh.png",
+      src: "assets/images/brand/hero-zh.webp",
       alt: "长兴春生纺织中文工厂封面"
     }
   };

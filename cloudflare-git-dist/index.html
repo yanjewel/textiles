@@ -21,10 +21,10 @@
       content="Source polyester pongee, peach skin, oxford and brushed fabrics from a woven textile manufacturer in Zhejiang, China."
     />
     <meta property="og:url" content="https://textiles.junyan911s.workers.dev/" />
-    <meta property="og:image" content="https://textiles.junyan911s.workers.dev/assets/images/brand/hero-en.png" />
+    <meta property="og:image" content="https://textiles.junyan911s.workers.dev/assets/images/brand/hero-en.webp" />
     <meta name="analytics-endpoint" content="" />
-    <link rel="stylesheet" href="styles.css?v=20260622-faq-style" />
-    <script defer src="script.js?v=20260622-faq-style"></script>
+    <link rel="stylesheet" href="styles.css?v=20260622-local-improve" />
+    <script defer src="script.js?v=20260622-local-improve"></script>
     <script defer src="analytics.js"></script>
     <script type="application/ld+json">
       {
@@ -36,7 +36,7 @@
             "name": "Changxing Chunsheng Textile Co., Ltd.",
             "alternateName": "长兴春生纺织有限公司",
             "url": "https://textiles.junyan911s.workers.dev/",
-            "image": "https://textiles.junyan911s.workers.dev/assets/images/brand/hero-en.png",
+            "image": "https://textiles.junyan911s.workers.dev/assets/images/brand/hero-en.webp",
             "logo": "https://textiles.junyan911s.workers.dev/assets/images/brand/logo.jpg",
             "description": "Woven fabric manufacturer in Changxing County, Huzhou, Zhejiang, China, supplying polyester pongee, peach skin, oxford and brushed fabrics.",
             "foundingDate": "2018-04-02",
@@ -181,9 +181,11 @@
         <div class="hero-wrap">
           <div class="hero-cover-card">
             <img
-              src="assets/images/brand/hero-en.png"
+              src="assets/images/brand/hero-en.webp"
               alt="Changxing Chunsheng Textile English factory cover"
               data-cover-image
+              fetchpriority="high"
+              decoding="async"
             />
           </div>
           <div id="inquiry" class="hero-inquiry">
@@ -252,7 +254,7 @@
         <div class="product-grid">
           <article class="product-card">
             <button class="product-image-button" type="button" data-zoom-image>
-              <img src="assets/images/products/pongee.png" alt="Polyester pongee fabric sample" />
+              <img src="assets/images/products/pongee.webp" alt="Polyester pongee fabric sample" loading="lazy" decoding="async" />
             </button>
             <div>
               <h3 data-i18n="productPongeeTitle">Polyester Pongee</h3>
@@ -263,7 +265,7 @@
           </article>
           <article class="product-card">
             <button class="product-image-button" type="button" data-zoom-image>
-              <img src="assets/images/products/peach-skin.png" alt="Peach skin fabric sample" />
+              <img src="assets/images/products/peach-skin.webp" alt="Peach skin fabric sample" loading="lazy" decoding="async" />
             </button>
             <div>
               <h3 data-i18n="productPeachTitle">Peach Skin Fabric</h3>
@@ -274,7 +276,7 @@
           </article>
           <article class="product-card">
             <button class="product-image-button" type="button" data-zoom-image>
-              <img src="assets/images/products/oxford.png" alt="Oxford fabric sample" />
+              <img src="assets/images/products/oxford.webp" alt="Oxford fabric sample" loading="lazy" decoding="async" />
             </button>
             <div>
               <h3 data-i18n="productOxfordTitle">Oxford Fabric</h3>
@@ -285,7 +287,7 @@
           </article>
           <article class="product-card">
             <button class="product-image-button" type="button" data-zoom-image>
-              <img src="assets/images/products/brushed.png" alt="Brushed fabric sample" />
+              <img src="assets/images/products/brushed.webp" alt="Brushed fabric sample" loading="lazy" decoding="async" />
             </button>
             <div>
               <h3 data-i18n="productBrushedTitle">Brushed Fabric</h3>
@@ -315,13 +317,65 @@
         </div>
         <div class="factory-gallery">
           <figure>
-            <img src="assets/images/factory/warehouse.jpg" alt="Fabric rolls stored inside the Changxing Chunsheng Textile factory" />
+            <img src="assets/images/factory/warehouse.webp" alt="Fabric rolls stored inside the Changxing Chunsheng Textile factory" loading="lazy" decoding="async" />
             <figcaption data-i18n="factoryCaption1">Fabric roll storage inside the workshop</figcaption>
           </figure>
           <figure>
-            <img src="assets/images/factory/workshop.jpg" alt="Production floor with weaving equipment and fabric rolls" />
+            <img src="assets/images/factory/workshop.webp" alt="Production floor with weaving equipment and fabric rolls" loading="lazy" decoding="async" />
             <figcaption data-i18n="factoryCaption2">Production floor and weaving equipment</figcaption>
           </figure>
+        </div>
+      </section>
+
+      <section id="videos" class="section video-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="videosEyebrow">Factory media</p>
+          <h2 data-i18n="videosTitle">Workshop video clips</h2>
+          <p data-i18n="videosCopy">
+            Short clips from the material folder are embedded to make the factory presence visible before a buyer
+            schedules a call or asks for updated footage.
+          </p>
+        </div>
+        <div class="video-carousel" data-video-carousel>
+          <div class="carousel-meta">
+            <div>
+              <span data-i18n="carouselKicker">Factory video</span>
+              <strong data-carousel-title>Workshop clip 01</strong>
+            </div>
+            <span class="carousel-count" data-carousel-count>01 / 06</span>
+          </div>
+          <button class="carousel-control prev" type="button" aria-label="Previous video" data-carousel-prev>
+            <span aria-hidden="true">‹</span>
+          </button>
+          <div class="video-viewport">
+            <div class="video-track" data-carousel-track>
+              <article class="video-slide" data-carousel-slide>
+                <video src="assets/videos/factory-01.mp4" controls muted preload="metadata"></video>
+              </article>
+              <article class="video-slide" data-carousel-slide>
+                <video src="assets/videos/factory-02.mp4" controls muted preload="metadata"></video>
+              </article>
+              <article class="video-slide" data-carousel-slide>
+                <video src="assets/videos/factory-03.mp4" controls muted preload="metadata"></video>
+              </article>
+              <article class="video-slide" data-carousel-slide>
+                <video src="assets/videos/factory-04.mp4" controls muted preload="metadata"></video>
+              </article>
+              <article class="video-slide" data-carousel-slide>
+                <video src="assets/videos/factory-05.mp4" controls muted preload="metadata"></video>
+              </article>
+              <article class="video-slide" data-carousel-slide>
+                <video src="assets/videos/factory-06.mp4" controls muted preload="metadata"></video>
+              </article>
+            </div>
+          </div>
+          <button class="carousel-control next" type="button" aria-label="Next video" data-carousel-next>
+            <span aria-hidden="true">›</span>
+          </button>
+          <div class="carousel-progress" aria-hidden="true">
+            <span data-carousel-progress></span>
+          </div>
+          <div class="carousel-dots" aria-label="Video carousel pagination" data-carousel-dots></div>
         </div>
       </section>
 
@@ -369,6 +423,39 @@
               </dd>
             </div>
           </dl>
+        </div>
+      </section>
+
+      <section class="section buyer-support">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="supportEyebrow">Buyer support</p>
+          <h2 data-i18n="supportTitle">Quotation details kept practical for textile buyers</h2>
+          <p data-i18n="supportCopy">
+            Share your target fabric, usage and shipment term. The discussion can stay focused on specification,
+            sample confirmation, packing details and export communication.
+          </p>
+        </div>
+        <div class="support-grid">
+          <article>
+            <span>01</span>
+            <h3 data-i18n="support1Title">Formal quotation</h3>
+            <p data-i18n="support1Copy">FOB or CIF quotation can be discussed after confirming width, weight, finish, quantity, packing and port.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3 data-i18n="support2Title">Sample confirmation</h3>
+            <p data-i18n="support2Copy">Color, hand feel, surface effect and finishing route should be approved before bulk production.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3 data-i18n="support3Title">Packing evidence</h3>
+            <p data-i18n="support3Copy">Roll packing, labels, marks and pre-shipment photos can be discussed for order follow-up.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3 data-i18n="support4Title">Export communication</h3>
+            <p data-i18n="support4Copy">Invoice, packing list, destination port and shipping document requirements should be confirmed in advance.</p>
+          </article>
         </div>
       </section>
 
@@ -485,57 +572,7 @@
         </div>
       </section>
 
-      <section id="videos" class="section video-section">
-        <div class="section-heading">
-          <p class="eyebrow" data-i18n="videosEyebrow">Factory media</p>
-          <h2 data-i18n="videosTitle">Workshop video clips</h2>
-          <p data-i18n="videosCopy">
-            Short clips from the material folder are embedded to make the factory presence visible before a buyer
-            schedules a call or asks for updated footage.
-          </p>
-        </div>
-        <div class="video-carousel" data-video-carousel>
-          <div class="carousel-meta">
-            <div>
-              <span data-i18n="carouselKicker">Factory video</span>
-              <strong data-carousel-title>Workshop clip 01</strong>
-            </div>
-            <span class="carousel-count" data-carousel-count>01 / 06</span>
-          </div>
-          <button class="carousel-control prev" type="button" aria-label="Previous video" data-carousel-prev>
-            <span aria-hidden="true">‹</span>
-          </button>
-          <div class="video-viewport">
-            <div class="video-track" data-carousel-track>
-              <article class="video-slide" data-carousel-slide>
-                <video src="assets/videos/factory-01.mp4" controls muted preload="metadata"></video>
-              </article>
-              <article class="video-slide" data-carousel-slide>
-                <video src="assets/videos/factory-02.mp4" controls muted preload="metadata"></video>
-              </article>
-              <article class="video-slide" data-carousel-slide>
-                <video src="assets/videos/factory-03.mp4" controls muted preload="metadata"></video>
-              </article>
-              <article class="video-slide" data-carousel-slide>
-                <video src="assets/videos/factory-04.mp4" controls muted preload="metadata"></video>
-              </article>
-              <article class="video-slide" data-carousel-slide>
-                <video src="assets/videos/factory-05.mp4" controls muted preload="metadata"></video>
-              </article>
-              <article class="video-slide" data-carousel-slide>
-                <video src="assets/videos/factory-06.mp4" controls muted preload="metadata"></video>
-              </article>
-            </div>
-          </div>
-          <button class="carousel-control next" type="button" aria-label="Next video" data-carousel-next>
-            <span aria-hidden="true">›</span>
-          </button>
-          <div class="carousel-progress" aria-hidden="true">
-            <span data-carousel-progress></span>
-          </div>
-          <div class="carousel-dots" aria-label="Video carousel pagination" data-carousel-dots></div>
-        </div>
-      </section>
+
 
     </main>
 
