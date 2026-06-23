@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "textiles",
+  "compatibility_date": "2026-06-23",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "cloudflare-git-dist"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
